@@ -129,7 +129,7 @@ footer p {
     }
 
     .header-content .text {
-        display: none;
+        text-align: center;
     }
 
     .grid-3, .grid-2 {
@@ -143,11 +143,16 @@ footer p {
 
 @media(max-height: 500px) {
     .header-content .title {
-        display: none;
+        text-align: center;
     }
 
     .header {
         top: 0;
+    }
+    
+    .Imagen {
+        image-position: center
+    
     }
 }
 
